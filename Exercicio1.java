@@ -13,7 +13,7 @@ public class Exercicio1 {
         for (double nota : aluno.notas) {
             soma += nota;
         }
-        double media = soma / aluno.notas;
+        double media = soma / aluno.notas.length;
 
         Prompt.separador();
         Prompt.imprimir("Nome do aluno: " + aluno.nome);
